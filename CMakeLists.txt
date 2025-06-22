@@ -37,17 +37,27 @@ pico_sdk_init()
 
 add_executable(embarcatech-tarefa-freertos-2
     main.c
+    src/neopixel.c
 )
 
+pico_enable_stdio_uart(embarcatech-tarefa-freertos-2  0)
+pico_enable_stdio_usb(embarcatech-tarefa-freertos-2  1)
+
+pico_generate_pio_header(embarcatech-tarefa-freertos-2 
+    ${CMAKE_CURRENT_LIST_DIR}/include/ws2818b.pio
+)
 target_include_directories(embarcatech-tarefa-freertos-2 PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
     ${CMAKE_CURRENT_LIST_DIR}/include
+    ${CMAKE_CURRENT_LIST_DIR}/src
 )
 
 target_link_libraries(embarcatech-tarefa-freertos-2 
-    pico_stdlib 
-    FreeRTOS-Kernel-Heap4 
+    pico_stdlib
+    FreeRTOS-Kernel-Heap4
     hardware_i2c
+    hardware_pio
+    hardware_adc
     )
 
 pico_add_extra_outputs(embarcatech-tarefa-freertos-2)
