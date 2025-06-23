@@ -7,8 +7,6 @@
 #include "../include/neopixel.h"
 #include "ws2818b.pio.h"
 
-float global_brightness = 0.25;
-
 np_led_color_t led_strip[LED_COUNT];
 PIO np_pio;
 uint sm;
