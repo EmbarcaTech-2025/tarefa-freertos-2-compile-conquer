@@ -10,7 +10,7 @@ Campinas, June 2025
 
 ---
 
-# FreeRTOS Audio-Reactive LED System
+# FreeRTOS Audio-Reactive LED Project
 
 This project develops an embedded real-time audio visualization system using the BitDogLab board, programmed with FreeRTOS in C language on VSCode. The system implements a **three-task pipeline architecture** that captures, processes, and visualizes audio data in real-time:
 
@@ -91,6 +91,8 @@ Develop skills in embedded real-time systems programming using FreeRTOS. Upon co
 - **Hardware Control**: ADC microphone input and NeoPixel LED matrix output
 
 ## 🖼️ Project Images/Videos
+
+https://github.com/user-attachments/assets/e5942d3a-10f6-41a6-89f5-c9946b4e845e
 
 
 ## 📜 License
