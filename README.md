@@ -646,8 +646,7 @@ https://github.com/user-attachments/assets/3949fd68-5e14-4b22-b967-8f1bdeb37efe
 
 #### Circuito Completo
 
-
-https://github.com/user-attachments/assets/b82385e6-c8f4-434a-ad9b-46c63f93c2b8
+<img width="676" height="615" alt="Screenshot_2" src="https://github.com/user-attachments/assets/7497a8a1-76dd-4b6b-838e-3b19a450e74c" />
 
 
 ---
